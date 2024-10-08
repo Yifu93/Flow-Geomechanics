@@ -66,7 +66,7 @@ phi = phi / phi_max
 print('porosity max is ', np.max(phi))
 print('porosity min is ', np.min(phi))
 
-phi_v = load_data('/Dataset/phi_test.h5', ['phi'])
+phi_v = load_data('/Dataset/phi_val.h5', ['phi'])
 phi_v = np.array(phi_v)
 phi_v = phi_v.reshape(200, 20, 80, 80)
 phi_v = phi_v / phi_max
