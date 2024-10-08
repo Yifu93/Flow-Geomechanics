@@ -136,7 +136,7 @@ print('k shape is ', k.shape)
 print('phi shape is ', phi.shape)
 
 # load testing data
-simulation_data = os.path.join(data_dir, 'Flow_Sw_Test.h5')
+simulation_data = os.path.join(data_dir, 'Coupled_Sw_Val.h5')
 sat_v = load_data(simulation_data, ['saturation'])
 sat_v = np.array(sat_v)
 sat_v = sat_v[0,...]
